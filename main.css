@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.simulation {
+  width: 500px;
+  height: 800px;
+  position: absolute;
+  left: 35%;
+}
+
+.brain, .facial, .neck, .throax, .upper-abdomen, .lower-abdomen,
+.pelvis, .lower-extremity-upper, .lower-extremity-lower {
+  text-align: center;
+  background: grey;
+}
+
+.brain {
+  border: 2px dashed darkgray;
+}
+
+.facial, .neck, .throax, .upper-abdomen, .lower-abdomen,
+.pelvis, .lower-extremity-upper, .lower-extremity-lower {
+  border-left: 2px dashed darkgrey;
+  border-right: 2px dashed darkgrey;
+  border-bottom: 2px dashed darkgrey;
+}
+
+svg {
+  margin-bottom: -4px;
+}
+
+text {
+  transform: translate(50%, 50%);
+  text-anchor: middle;
+  fill: white;
+}
+
+text:hover {
+  fill: red;
+  cursor: pointer;
+}
