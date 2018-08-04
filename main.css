@@ -10,6 +10,14 @@
   left: 35%;
 }
 
+.simulation div:hover {
+  cursor: pointer;
+}
+
+.simulation div:hover text {
+  fill: red;
+}
+
 .brain, .facial, .neck, .throax, .upper-abdomen, .lower-abdomen,
 .pelvis, .lower-extremity-upper, .lower-extremity-lower {
   text-align: center;
@@ -35,9 +43,4 @@ text {
   transform: translate(50%, 50%);
   text-anchor: middle;
   fill: white;
-}
-
-text:hover {
-  fill: red;
-  cursor: pointer;
 }

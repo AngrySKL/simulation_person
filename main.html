@@ -4,9 +4,20 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" href="main.css">
   <title>Simulation</title>
+  <script>
+    window.onload = function() {
+      let parts = document.getElementById('simulation').getElementsByTagName('div');
+      let count = parts.length;
+      for (let i = 0; i < count - 1; i++) {
+        parts[i].onclick = function() {
+          console.log(parts[i].className);
+        }
+      }
+    }
+  </script>
 </head>
 <body>
-  <div class="simulation">
+  <div class="simulation" id='simulation'>
       <div class="brain">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 312 42">
             <title>Brain</title>
