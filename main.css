@@ -40,7 +40,7 @@ svg {
 }
 
 text {
-  transform: translate(50%, 50%);
+  transform: translate(50%, 60%);
   text-anchor: middle;
   fill: white;
 }
